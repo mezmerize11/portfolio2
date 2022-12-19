@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFJ Portfolio</title>
+</head>
+<!-- bootstrap 5.0 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="lightbox.css">
+<body>
+<section>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">LIFJ</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#section2">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#section3">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#section4">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</section>
+<section>
+    <div class="bg-image">
+        <div class="content">
+            <div class="info">
+                <h2>Lee Izzy Frixx<br><span>Jose</span></h2>
+                <p>Welcome to my portfolio, you can learn all of my skills and potential in IT. Included here are the projects and other information and the courses that I take to gain my skills!</p>
+                <a href="#section2" class="info-btn">See More</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section2">
+    <div class="px-4 pt-5 my-5 text-center">
+        <h1 class="display-4 fw-bold">Hello, Welcome!</h1>
+        <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">My name is Lee!, I am a college student in Central Luzon State University, I've indulge into studying Information technolgy to create and solve problems in a modern way. I had interest in technology ever since I was a Senior High Student. I am aiming to be a Software Engineer as I move forward.</p>
+        </div>
+    </div>
+</section>
+<section class="s2" id="section2">
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="images/Me.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+      <h1 class="display-4 fw-bold text-center">IT Specialist</h1>
+        <ul class="nav nav-tabs top-0" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active fs-3 text-dark" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">What I can Do</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link fs-3 text-dark" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Education Attainment</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <ul>
+                <label><h4>Programming Skills</h4></label>
+                    <li>PHP</li>
+                    <li>Python</li>
+                    <li>C Language</li>
+                    <label><h4>Front End skills</h4></label>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <ul>
+                    <label><h4>Senior Highschool</h4></label>
+                    <li>STI College San Jose (Information Communication Technology)</li>
+                    <label><h4>College</h4></label>
+                    <li>Central Luzon State University</li>
+                    <label><h4>Extra Curricular Activities</h4></label>
+                    <li>AWS Training and Certification</li>
+                </ul>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- My Skills -->
+<section id="section3">
+<div class="container px-4 py-5" id="icon-grid">
+    <h1 class="pb-2 border-bottom text-center">My Skills</h1>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
+        <div>
+          <h4 class="fw-bold mb-0">Creative Direction</h4>
+          <p>Leading communicaton design, interactive design, and concept of creative work</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
+        <div>
+          <h4 class="fw-bold mb-0">Graphic Design</h4>
+          <p>The art of communication, stylizing, and problem solving through the use of image</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
+        <div>
+          <h4 class="fw-bold mb-0">Video Editing</h4>
+          <p>Production, conceptualizing and imaginative storytelling in just the right lighting</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
+        <div>
+          <h4 class="fw-bold mb-0">Photography</h4>
+          <p>Capturing the Beauty of what is already there but cant be seen by eye</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"/></svg>
+        <div>
+          <h4 class="fw-bold mb-0">Active Communicator</h4>
+          <p>I build up confidence to speak in front of crowds to lead, suggest and make change through communicating.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section4">
+  <div class="container">
+  <h1 class="text-center"> My Projects </h1>
+  </div>
+    <div class="gallery-container">
+        <div class="gallery">
+          <div>
+          <a href="images/game.png" data-lightbox="models" data-title="One Meter Apart Python Game">
+            <img src="images/game.png">
+          </a>
+          <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">One Meter Apart Python Game</h5>
+          <p class="card-text">This is a game I practiced on to accomplished a requirement of making a game. I've use python to create a simple game that relates to COVID to remind people during the pandemic to Stay a meter apart to keep safe</p>
+        </div>
+      </div>
+          </div>
+          <div>
+          <a href="images/taravel.png" data-lightbox="models" data-title="Taravel Website">
+            <img src="images/taravel.png">
+          </a>
+          <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Taravel Website</h5>
+          <p class="card-text">This website is our requirement in completing the midterm project. I worked on the backend programming using PHP. I have spent time in Front-end programming using Bootstrap 5. Check out our website <a href="https://taraveltours.000webhostapp.com/index.php">Taravel Tours</a></p>
+        </div>
+      </div>
+          </div>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+  <div>
+    <footer class="bg-dark text-center text-white">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        Hi! Did you like what you see? Contact me at leezzyixxose@gmail.com</a>
+    </div>
+    </footer>
+</div>
+<script src="lightbox-plus-jquery.js"></script>
+</body>
+</html>
